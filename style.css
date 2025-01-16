@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    scrollbar-width: none;
 }
 main{
     height: 100vh;
@@ -20,28 +20,14 @@ nav{
     align-items: center;
 }
 .left-nav {
-    display: flex;
     
-    font-size: 40px;
-    color: rgb(239, 12, 12);
+    color: rgb(15, 14, 14);
 }
 .left-nav h1{
-    font-size: 37px;
-    padding: 10px 20px;
+    font-size: 50px;
+    padding: 15px 20px;
 }
-.left-btn a{
-    text-decoration: none;
-    background-color: rgba(203, 241, 11, 0.974);
-   padding: 10px 120px; 
-   font-size: 16px;
-   border: none;
-   color: black;
-   cursor: pointer;
-   border-radius: 20px;
-}
-.left-btn a:hover{
-    color: orangered;
-}
+
 .right-nav {
     display: flex;
    padding: 20px 30px;
@@ -82,17 +68,18 @@ color: black;
     padding: 80px 40px;
 }
 .left-content h1{
-  font-size: 60px; 
+  font-size: 50px; 
   font-weight: 300;
 }
-span{
-    color: rgb(99, 13, 13);
+ .left-content span {
+    color: rgb(245, 4, 4);
     font-weight: bold;
+    font-size: 53px;
 }
 .left-content p{
-    font-size: 25px;
+    font-size: 23px;
    font-weight: lighter;
-    padding-top: 80px;
+   padding-top: 30px;
 }
 .find-food{
     margin: 50px 0 ;
@@ -123,7 +110,7 @@ span{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
-    margin: 5% 2%;
+    margin: 7% 12%;
 }
 
 .location-container input {
@@ -159,27 +146,120 @@ span{
     height: 20px;
     margin-right: 10px;
 }
-/* .right-content{
-    height: 600px;
-    width: 600px;
-} */
+
 .right-content img{
 height: 580px;
 width: 650px;
 }
  section{
-padding:10px 20px;
+padding:10px 30px; 
+box-sizing: border-box;
+background-color: #f5eeee;
+border:2px solid #171515;
 }
 section h1{
     font-size: 40px;
-    padding: 10px 30px;
+    padding: 20px 20px;
 }
+
 .delicious-food img{
-    width: 150px;
-    background-color: #ff4c4c;
-    padding: 10px 0;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
 }
 .food-item{
+    padding: 20px 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delicious-food h1{
+    font-size: 20px;
+    text-align: center;
+    color: #171515;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+}
+.leading-restaurant{
+    height: 50%;
+    padding: 20px 30px;
+}
+.leading-restaurant h1{
+    font-size: 40px;
+    padding: 3px 30px;
+}
+.popular-item{
+    display: flex;
+    display: flex;
+    padding: 20px 30px;
+align-items: center;
+justify-content: space-between;
+}
+.items img{
+
+    width: 200px;
+    height: 165px;
+}
+.items h3{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.rating-img{
+    padding: 5px 0;
+display: flex;
+} 
+.rating-img img{
+    width: 20px;
+    height: 20px;
+}
+.rating-img h3{
+    font-size: 18px;
+    padding: 0 5px;
+    font-weight: 100;
+}
+span{
+    font-size: 16px;
+    color: #333;
+}
+.restaurant{
+    padding: 20px 30px;
+    height: 50%;
+}
+.restaurant h1{
+    padding: 3px 30px;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 40%;
+    padding: 40px 30px;
+}
+.img-content{
+    width: 700px;
+    padding: 40px 40px;
+    height: 600px;
+}
+.img-content img{
+    border-radius: 200px;
+    height: 400px;
+    width: 350px;
+}
+.right{
+    width: 60%;
+    padding: 40px 60px;
+}
+.about-right h1{
+    padding: 20px 50px;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about-right p{
+    padding: 20px 50px;
+    font-size: 23px;
 }
